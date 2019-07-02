@@ -33,7 +33,7 @@ def deepest(node,lvl,Deep_node):
     return Deep_node
 
 
-root=Node(1,Node(2,Node(3)),Node(4))
+root=Node(1,Node(2,Node(3),Node(5,Node(7))),Node(4))
 
 ans=deepest(root,0,[root,0])
 
